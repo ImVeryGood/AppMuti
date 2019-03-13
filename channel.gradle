@@ -1,0 +1,15 @@
+ext {
+    productFlavors = [
+            "MApp": [
+                    applicationId       : "com.mapp",
+                    versionCode         : 100000,
+                    versionName         : "1.0.0",
+                    manifestPlaceholders: [
+                            VERSION_CODE : "1.0.0",
+                            AMAP_KEY     : "727fbd7f8d0000000006d5391690a3f7b2",
+
+                    ]
+
+            ],
+    ]
+}
